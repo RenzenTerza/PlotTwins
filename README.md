@@ -4,9 +4,15 @@
 
 Movie watching has increasingly become an isolated, streaming-first activity, leading to declining theatre engagement for companies like Cineplex.
 
+**Business Problem**  
+Streaming has reduced shared cinema experiences, weakening social engagement and theatre attendance.
+
 PlotTwins aims to reverse this trend by:
 
 > Grouping users with similar movie tastes and enabling shared, in-theatre experiences.
+
+**Objective**  
+Rebuild social movie-going by clustering users into taste-based communities and enabling group/event-based recommendations.
 
 Using large-scale Letterboxd-style data (~10M+ ratings), we built a data pipeline + user profiling system that:
 
@@ -15,6 +21,19 @@ Using large-scale Letterboxd-style data (~10M+ ratings), we built a data pipelin
 * Enables event-based recommendations (e.g., themed screenings)
 * Generates human-readable narratives describing user and cluster taste profiles
 * Reintroduces movie watching as a social activity
+
+**My Contributions**
+* Led data preprocessing and transformation pipeline for ~10M+ interactions  
+* Designed and implemented cluster interpretation framework (turning clusters into user personas)  
+* Built event recommendation layer for business-facing insights  
+* Contributed to frontend dashboard and documentation  
+* Helped define end-to-end system design and feature logic
+
+**Outputs**
+* User taste profiles  
+* Interpretable audience segments (K=6 clusters)  
+* Event recommendation layer for targeted screenings  
+* Narrative explanations for clusters and users  
 
 **Try it live:**  
 - [User Dashboard](https://plot-twins.vercel.app/)  
